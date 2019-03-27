@@ -159,7 +159,7 @@ public class Chromosome implements Cloneable{
 
 	@Override
 	public boolean equals(Object obj) {
-		Chromosome chro = (Chromosome)obj;？
+		Chromosome chro = (Chromosome)obj;//？
 		if(this.routeAndBestUseage.get(2) == chro.getRouteAndBestUseage().get(2)){//比较利用率，作用是什么？
 			return true;
 		}else{
