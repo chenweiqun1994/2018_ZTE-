@@ -16,7 +16,7 @@ public class Key {
 	}
 
 	@Override
-	public boolean equals(Object obj) {
+	public boolean equals(Object obj) {//判断是否相同？？？？？？？？？？？？？？？？？？？？
 	    boolean result = false;
 	    if (this == obj)
 		result = true;
